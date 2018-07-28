@@ -1,0 +1,9 @@
+[Master]
+Master = "10.1.130.58"
+
+[My Computer]
+My Computer = "10.34.2.24"
+
+[Slave 1]
+Slave 1 = "10.1.130.14"
+
