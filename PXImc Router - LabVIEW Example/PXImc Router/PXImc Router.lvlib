@@ -9,8 +9,18 @@
 </Property>
 	<Item Name="Controls" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Node" Type="Folder">
+			<Item Name="Node - Configuration.ctl" Type="VI" URL="../Controls/Node - Configuration.ctl"/>
+			<Item Name="Node Ch Properties.ctl" Type="VI" URL="../Controls/Node/Node Ch Properties.ctl"/>
+			<Item Name="Node Block Porperties.ctl" Type="VI" URL="../Controls/Node/Node Block Porperties.ctl"/>
+			<Item Name="Remote Node Properties.ctl" Type="VI" URL="../Controls/Node/Remote Node Properties.ctl"/>
+			<Item Name="Local Node Properties.ctl" Type="VI" URL="../Controls/Node/Local Node Properties.ctl"/>
+			<Item Name="Transfer Data.ctl" Type="VI" URL="../Controls/Node/Transfer Data.ctl"/>
+		</Item>
+		<Item Name="Router" Type="Folder">
+			<Item Name="Master Table Element.ctl" Type="VI" URL="../Controls/Router/Master Table Element.ctl"/>
+		</Item>
 		<Item Name="Master Properties.ctl" Type="VI" URL="../Controls/Master Properties.ctl"/>
-		<Item Name="Node - Configuration.ctl" Type="VI" URL="../Controls/Node - Configuration.ctl"/>
 		<Item Name="Node Data.ctl" Type="VI" URL="../Controls/Node Data.ctl"/>
 		<Item Name="Node Properties.ctl" Type="VI" URL="../Controls/Node Properties.ctl"/>
 		<Item Name="Reader Data.ctl" Type="VI" URL="../Controls/Reader Data.ctl"/>
@@ -18,6 +28,7 @@
 		<Item Name="Router - Configuration.ctl" Type="VI" URL="../Controls/Router - Configuration.ctl"/>
 		<Item Name="Router Data.ctl" Type="VI" URL="../Controls/Router Data.ctl"/>
 		<Item Name="Table Index-Size.ctl" Type="VI" URL="../Controls/Table Index-Size.ctl"/>
+		<Item Name="Data Type.ctl" Type="VI" URL="../Controls/Data Type.ctl"/>
 	</Item>
 	<Item Name="VIs" Type="Folder">
 		<Item Name="Node VIs" Type="Folder">
