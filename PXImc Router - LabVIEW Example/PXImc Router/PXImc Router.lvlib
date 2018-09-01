@@ -16,6 +16,7 @@
 			<Item Name="Remote Node Properties.ctl" Type="VI" URL="../Controls/Node/Remote Node Properties.ctl"/>
 			<Item Name="Local Node Properties.ctl" Type="VI" URL="../Controls/Node/Local Node Properties.ctl"/>
 			<Item Name="Transfer Data.ctl" Type="VI" URL="../Controls/Node/Transfer Data.ctl"/>
+			<Item Name="Node - PXImc Parameters.ctl" Type="VI" URL="../Controls/Node/Node - PXImc Parameters.ctl"/>
 		</Item>
 		<Item Name="Router" Type="Folder">
 			<Item Name="Master Table Element.ctl" Type="VI" URL="../Controls/Router/Master Table Element.ctl"/>
@@ -33,10 +34,20 @@
 	<Item Name="VIs" Type="Folder">
 		<Item Name="Node VIs" Type="Folder">
 			<Item Name="Node - Close.vi" Type="VI" URL="../VIs/Node/Node - Close.vi"/>
+			<Item Name="Node - Config Reader.vi" Type="VI" URL="../VIs/Node/Node - Config Reader.vi"/>
+			<Item Name="Node - Config Writer.vi" Type="VI" URL="../VIs/Node/Node - Config Writer.vi"/>
 			<Item Name="Node - Configure.vi" Type="VI" URL="../VIs/Node/Node - Configure.vi"/>
 			<Item Name="Node - Connect.vi" Type="VI" URL="../VIs/Node/Node - Connect.vi"/>
 			<Item Name="Node - Globals.vi" Type="VI" URL="../VIs/Node/Node - Globals.vi"/>
+			<Item Name="Node - Initial Handshaking.vi" Type="VI" URL="../VIs/Node/Node - Initial Handshaking.vi"/>
+			<Item Name="Node - PXImc Close.vi" Type="VI" URL="../VIs/Node/Node - PXImc Close.vi"/>
+			<Item Name="Node - PXImc Connect.vi" Type="VI" URL="../VIs/Node/Node - PXImc Connect.vi"/>
+			<Item Name="Node - PXImc Open.vi" Type="VI" URL="../VIs/Node/Node - PXImc Open.vi"/>
 			<Item Name="Node - Reader.vi" Type="VI" URL="../VIs/Node/Node - Reader.vi"/>
+			<Item Name="Node - Runtime Type Cast.vi" Type="VI" URL="../VIs/Node/Node - Runtime Type Cast.vi"/>
+			<Item Name="Node - Set ID.vi" Type="VI" URL="../VIs/Node/Node - Set ID.vi"/>
+			<Item Name="Node - Type Cast.vi" Type="VI" URL="../VIs/Node/Node - Type Cast.vi"/>
+			<Item Name="Node - Update Channel Values.vi" Type="VI" URL="../VIs/Node/Node - Update Channel Values.vi"/>
 			<Item Name="Node - Writer.vi" Type="VI" URL="../VIs/Node/Node - Writer.vi"/>
 		</Item>
 		<Item Name="Router VIs" Type="Folder">
@@ -49,4 +60,5 @@
 		</Item>
 	</Item>
 	<Item Name="Merge Errors from Array.vi" Type="VI" URL="../VIs/Merge Errors from Array.vi"/>
+	<Item Name="Node - PXImc Write.vi" Type="VI" URL="../VIs/Node/Node - PXImc Write.vi"/>
 </Library>
