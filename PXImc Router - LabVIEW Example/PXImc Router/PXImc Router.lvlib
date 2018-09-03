@@ -33,6 +33,10 @@
 	</Item>
 	<Item Name="VIs" Type="Folder">
 		<Item Name="Node VIs" Type="Folder">
+			<Item Name="Node - Byte Buffer Read - Runtime.vi" Type="VI" URL="../VIs/Node/Node - Byte Buffer Read - Runtime.vi"/>
+			<Item Name="Node - Byte Buffer Read.vi" Type="VI" URL="../VIs/Node/Node - Byte Buffer Read.vi"/>
+			<Item Name="Node - Byte Buffer Write - Runtime.vi" Type="VI" URL="../VIs/Node/Node - Byte Buffer Write - Runtime.vi"/>
+			<Item Name="Node - Byte Buffer Write.vi" Type="VI" URL="../VIs/Node/Node - Byte Buffer Write.vi"/>
 			<Item Name="Node - Close.vi" Type="VI" URL="../VIs/Node/Node - Close.vi"/>
 			<Item Name="Node - Config Reader.vi" Type="VI" URL="../VIs/Node/Node - Config Reader.vi"/>
 			<Item Name="Node - Config Writer.vi" Type="VI" URL="../VIs/Node/Node - Config Writer.vi"/>
@@ -43,12 +47,15 @@
 			<Item Name="Node - PXImc Close.vi" Type="VI" URL="../VIs/Node/Node - PXImc Close.vi"/>
 			<Item Name="Node - PXImc Connect.vi" Type="VI" URL="../VIs/Node/Node - PXImc Connect.vi"/>
 			<Item Name="Node - PXImc Open.vi" Type="VI" URL="../VIs/Node/Node - PXImc Open.vi"/>
+			<Item Name="Node - PXImc Write.vi" Type="VI" URL="../VIs/Node/Node - PXImc Write.vi"/>
+			<Item Name="Node - Read U8 Array from Byte Buffer.vi" Type="VI" URL="../VIs/Node/Node - Read U8 Array from Byte Buffer.vi"/>
 			<Item Name="Node - Reader.vi" Type="VI" URL="../VIs/Node/Node - Reader.vi"/>
-			<Item Name="Node - Runtime Type Cast.vi" Type="VI" URL="../VIs/Node/Node - Runtime Type Cast.vi"/>
 			<Item Name="Node - Set ID.vi" Type="VI" URL="../VIs/Node/Node - Set ID.vi"/>
-			<Item Name="Node - Type Cast.vi" Type="VI" URL="../VIs/Node/Node - Type Cast.vi"/>
-			<Item Name="Node - Update Channel Values.vi" Type="VI" URL="../VIs/Node/Node - Update Channel Values.vi"/>
+			<Item Name="Node - Update Reader Ch Values.vi" Type="VI" URL="../VIs/Node/Node - Update Reader Ch Values.vi"/>
+			<Item Name="Node - Update Writer Ch Values.vi" Type="VI" URL="../VIs/Node/Node - Update Writer Ch Values.vi"/>
+			<Item Name="Node - Write U8 Array into Byte Buffer.vi" Type="VI" URL="../VIs/Node/Node - Write U8 Array into Byte Buffer.vi"/>
 			<Item Name="Node - Writer.vi" Type="VI" URL="../VIs/Node/Node - Writer.vi"/>
+			<Item Name="Node PXImc Read.vi" Type="VI" URL="../VIs/Node/Node PXImc Read.vi"/>
 		</Item>
 		<Item Name="Router VIs" Type="Folder">
 			<Item Name="Router - Close.vi" Type="VI" URL="../VIs/Router/Router - Close.vi"/>
@@ -60,5 +67,4 @@
 		</Item>
 	</Item>
 	<Item Name="Merge Errors from Array.vi" Type="VI" URL="../VIs/Merge Errors from Array.vi"/>
-	<Item Name="Node - PXImc Write.vi" Type="VI" URL="../VIs/Node/Node - PXImc Write.vi"/>
 </Library>
