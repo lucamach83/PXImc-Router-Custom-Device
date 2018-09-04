@@ -20,6 +20,10 @@
 		</Item>
 		<Item Name="Router" Type="Folder">
 			<Item Name="Master Table Element.ctl" Type="VI" URL="../Controls/Router/Master Table Element.ctl"/>
+			<Item Name="Block Properties.ctl" Type="VI" URL="../Controls/Router/Block Properties.ctl"/>
+			<Item Name="Node Block R-W Properties.ctl" Type="VI" URL="../Controls/Router/Node Block R-W Properties.ctl"/>
+			<Item Name="Router - PXImc Properties.ctl" Type="VI" URL="../Controls/Router/Router - PXImc Properties.ctl"/>
+			<Item Name="Router - PXImc Card Properties.ctl" Type="VI" URL="../Controls/Router/Router - PXImc Card Properties.ctl"/>
 		</Item>
 		<Item Name="Master Properties.ctl" Type="VI" URL="../Controls/Master Properties.ctl"/>
 		<Item Name="Node Data.ctl" Type="VI" URL="../Controls/Node Data.ctl"/>
@@ -46,6 +50,7 @@
 			<Item Name="Node - Initial Handshaking.vi" Type="VI" URL="../VIs/Node/Node - Initial Handshaking.vi"/>
 			<Item Name="Node - PXImc Close.vi" Type="VI" URL="../VIs/Node/Node - PXImc Close.vi"/>
 			<Item Name="Node - PXImc Connect.vi" Type="VI" URL="../VIs/Node/Node - PXImc Connect.vi"/>
+			<Item Name="Node - PXImc Intial Handshaking.vi" Type="VI" URL="../VIs/Node/Node - PXImc Intial Handshaking.vi"/>
 			<Item Name="Node - PXImc Open.vi" Type="VI" URL="../VIs/Node/Node - PXImc Open.vi"/>
 			<Item Name="Node - PXImc Write.vi" Type="VI" URL="../VIs/Node/Node - PXImc Write.vi"/>
 			<Item Name="Node - Read U8 Array from Byte Buffer.vi" Type="VI" URL="../VIs/Node/Node - Read U8 Array from Byte Buffer.vi"/>
@@ -62,6 +67,8 @@
 			<Item Name="Router - Configure.vi" Type="VI" URL="../VIs/Router/Router - Configure.vi"/>
 			<Item Name="Router - Connect.vi" Type="VI" URL="../VIs/Router/Router - Connect.vi"/>
 			<Item Name="Router - Globals.vi" Type="VI" URL="../VIs/Router/Router - Globals.vi"/>
+			<Item Name="Router - Initial Handshaking.vi" Type="VI" URL="../VIs/Router/Router - Initial Handshaking.vi"/>
+			<Item Name="Router - PXImc Intial Handshaking.vi" Type="VI" URL="../VIs/Router/Router - PXImc Intial Handshaking.vi"/>
 			<Item Name="Router - Reader.vi" Type="VI" URL="../VIs/Router/Router - Reader.vi"/>
 			<Item Name="Router - Writer.vi" Type="VI" URL="../VIs/Router/Router - Writer.vi"/>
 		</Item>
