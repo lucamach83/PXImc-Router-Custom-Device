@@ -37,6 +37,7 @@
 	</Item>
 	<Item Name="VIs" Type="Folder">
 		<Item Name="Node VIs" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Node - Byte Buffer Read - Runtime.vi" Type="VI" URL="../VIs/Node/Node - Byte Buffer Read - Runtime.vi"/>
 			<Item Name="Node - Byte Buffer Read.vi" Type="VI" URL="../VIs/Node/Node - Byte Buffer Read.vi"/>
 			<Item Name="Node - Byte Buffer Write - Runtime.vi" Type="VI" URL="../VIs/Node/Node - Byte Buffer Write - Runtime.vi"/>
@@ -48,11 +49,12 @@
 			<Item Name="Node - Connect.vi" Type="VI" URL="../VIs/Node/Node - Connect.vi"/>
 			<Item Name="Node - Globals.vi" Type="VI" URL="../VIs/Node/Node - Globals.vi"/>
 			<Item Name="Node - Initial Handshaking.vi" Type="VI" URL="../VIs/Node/Node - Initial Handshaking.vi"/>
+			<Item Name="Node - PXImc Intial Handshaking.vi" Type="VI" URL="../VIs/Node/Node - PXImc Intial Handshaking.vi"/>
 			<Item Name="Node - PXImc Close.vi" Type="VI" URL="../VIs/Node/Node - PXImc Close.vi"/>
 			<Item Name="Node - PXImc Connect.vi" Type="VI" URL="../VIs/Node/Node - PXImc Connect.vi"/>
-			<Item Name="Node - PXImc Intial Handshaking.vi" Type="VI" URL="../VIs/Node/Node - PXImc Intial Handshaking.vi"/>
 			<Item Name="Node - PXImc Open.vi" Type="VI" URL="../VIs/Node/Node - PXImc Open.vi"/>
 			<Item Name="Node - PXImc Write.vi" Type="VI" URL="../VIs/Node/Node - PXImc Write.vi"/>
+			<Item Name="Node - PXImc Read.vi" Type="VI" URL="../VIs/Node/Node - PXImc Read.vi"/>
 			<Item Name="Node - Read U8 Array from Byte Buffer.vi" Type="VI" URL="../VIs/Node/Node - Read U8 Array from Byte Buffer.vi"/>
 			<Item Name="Node - Reader.vi" Type="VI" URL="../VIs/Node/Node - Reader.vi"/>
 			<Item Name="Node - Set ID.vi" Type="VI" URL="../VIs/Node/Node - Set ID.vi"/>
@@ -60,18 +62,23 @@
 			<Item Name="Node - Update Writer Ch Values.vi" Type="VI" URL="../VIs/Node/Node - Update Writer Ch Values.vi"/>
 			<Item Name="Node - Write U8 Array into Byte Buffer.vi" Type="VI" URL="../VIs/Node/Node - Write U8 Array into Byte Buffer.vi"/>
 			<Item Name="Node - Writer.vi" Type="VI" URL="../VIs/Node/Node - Writer.vi"/>
-			<Item Name="Node PXImc Read.vi" Type="VI" URL="../VIs/Node/Node PXImc Read.vi"/>
 		</Item>
 		<Item Name="Router VIs" Type="Folder">
-			<Item Name="Router - Close.vi" Type="VI" URL="../VIs/Router/Router - Close.vi"/>
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Router - Configure.vi" Type="VI" URL="../VIs/Router/Router - Configure.vi"/>
 			<Item Name="Router - Connect.vi" Type="VI" URL="../VIs/Router/Router - Connect.vi"/>
-			<Item Name="Router - Globals.vi" Type="VI" URL="../VIs/Router/Router - Globals.vi"/>
-			<Item Name="Router - Initial Handshaking.vi" Type="VI" URL="../VIs/Router/Router - Initial Handshaking.vi"/>
-			<Item Name="Router - PXImc Intial Handshaking.vi" Type="VI" URL="../VIs/Router/Router - PXImc Intial Handshaking.vi"/>
 			<Item Name="Router - Reader.vi" Type="VI" URL="../VIs/Router/Router - Reader.vi"/>
 			<Item Name="Router - Writer.vi" Type="VI" URL="../VIs/Router/Router - Writer.vi"/>
+			<Item Name="Router - Close.vi" Type="VI" URL="../VIs/Router/Router - Close.vi"/>
+			<Item Name="Router - Initial Handshaking.vi" Type="VI" URL="../VIs/Router/Router - Initial Handshaking.vi"/>
+			<Item Name="Router - PXImc Intial Handshaking.vi" Type="VI" URL="../VIs/Router/Router - PXImc Intial Handshaking.vi"/>
+			<Item Name="Router - PXImc Open.vi" Type="VI" URL="../VIs/Router/Router - PXImc Open.vi"/>
+			<Item Name="Router - PXImc Connect.vi" Type="VI" URL="../VIs/Router/Router - PXImc Connect.vi"/>
+			<Item Name="Router - PXImc Read.vi" Type="VI" URL="../VIs/Router/Router - PXImc Read.vi"/>
+			<Item Name="Router - Create Master Table.vi" Type="VI" URL="../VIs/Router/Router - Create Master Table.vi"/>
+			<Item Name="Router - Globals.vi" Type="VI" URL="../VIs/Router/Router - Globals.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Merge Errors from Array.vi" Type="VI" URL="../VIs/Merge Errors from Array.vi"/>
+	<Item Name="Router - PXImc Write.vi" Type="VI" URL="../VIs/Router/Router - PXImc Write.vi"/>
 </Library>
