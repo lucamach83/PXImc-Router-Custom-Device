@@ -134,6 +134,8 @@ AddOutputFilter chunkFilter
 			<Item Name="nipximclvapi.dll" Type="Document" URL="nipximclvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Reader Data.ctl" Type="VI" URL="../PXImc Router/Controls/Reader Data.ctl"/>
+			<Item Name="Writer Data.ctl" Type="VI" URL="../PXImc Router/Controls/Writer Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -260,6 +262,8 @@ AddOutputFilter chunkFilter
 			<Item Name="nipximclvapi.dll" Type="Document" URL="nipximclvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Reader Data.ctl" Type="VI" URL="../PXImc Router/Controls/Reader Data.ctl"/>
+			<Item Name="Writer Data.ctl" Type="VI" URL="../PXImc Router/Controls/Writer Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
