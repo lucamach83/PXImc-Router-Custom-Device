@@ -10,11 +10,8 @@
 	<Item Name="Controls" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Node" Type="Folder">
-			<Item Name="Node - Configuration.ctl" Type="VI" URL="../Controls/Node - Configuration.ctl"/>
-			<Item Name="Node Ch Properties.ctl" Type="VI" URL="../Controls/Node/Node Ch Properties.ctl"/>
-			<Item Name="Node Block Porperties.ctl" Type="VI" URL="../Controls/Node/Node Block Porperties.ctl"/>
-			<Item Name="Remote Node Properties.ctl" Type="VI" URL="../Controls/Node/Remote Node Properties.ctl"/>
-			<Item Name="Local Node Properties.ctl" Type="VI" URL="../Controls/Node/Local Node Properties.ctl"/>
+			<Item Name="Node - Config.ctl" Type="VI" URL="../Controls/Node/Node - Config.ctl"/>
+			<Item Name="Node - Ch Properties.ctl" Type="VI" URL="../Controls/Node/Node - Ch Properties.ctl"/>
 			<Item Name="Node - Writer Data.ctl" Type="VI" URL="../Controls/Node/Node - Writer Data.ctl"/>
 			<Item Name="Node - Reader Data.ctl" Type="VI" URL="../Controls/Node/Node - Reader Data.ctl"/>
 			<Item Name="Node - PXImc Parameters.ctl" Type="VI" URL="../Controls/Node/Node - PXImc Parameters.ctl"/>
@@ -22,18 +19,12 @@
 			<Item Name="Node - Buffer Offsets - Indexes.ctl" Type="VI" URL="../Controls/Node/Node - Buffer Offsets - Indexes.ctl"/>
 		</Item>
 		<Item Name="Router" Type="Folder">
-			<Item Name="Master Table Element.ctl" Type="VI" URL="../Controls/Router/Master Table Element.ctl"/>
-			<Item Name="Block Properties.ctl" Type="VI" URL="../Controls/Router/Block Properties.ctl"/>
-			<Item Name="Node Block R-W Properties.ctl" Type="VI" URL="../Controls/Router/Node Block R-W Properties.ctl"/>
+			<Item Name="Router - Config.ctl" Type="VI" URL="../Controls/Router/Router - Config.ctl"/>
+			<Item Name="Router - Block Properties.ctl" Type="VI" URL="../Controls/Router/Router - Block Properties.ctl"/>
+			<Item Name="Router - Node Block R-W Properties.ctl" Type="VI" URL="../Controls/Router/Router - Node Block R-W Properties.ctl"/>
 			<Item Name="Router - PXImc Properties.ctl" Type="VI" URL="../Controls/Router/Router - PXImc Properties.ctl"/>
 			<Item Name="Router - PXImc Card Properties.ctl" Type="VI" URL="../Controls/Router/Router - PXImc Card Properties.ctl"/>
 		</Item>
-		<Item Name="Master Properties.ctl" Type="VI" URL="../Controls/Master Properties.ctl"/>
-		<Item Name="Node Data.ctl" Type="VI" URL="../Controls/Node Data.ctl"/>
-		<Item Name="Node Properties.ctl" Type="VI" URL="../Controls/Node Properties.ctl"/>
-		<Item Name="Router - Configuration.ctl" Type="VI" URL="../Controls/Router - Configuration.ctl"/>
-		<Item Name="Router Data.ctl" Type="VI" URL="../Controls/Router Data.ctl"/>
-		<Item Name="Table Index-Size.ctl" Type="VI" URL="../Controls/Table Index-Size.ctl"/>
 		<Item Name="Data Type.ctl" Type="VI" URL="../Controls/Data Type.ctl"/>
 		<Item Name="Target Type.ctl" Type="VI" URL="../Controls/Target Type.ctl"/>
 	</Item>
@@ -59,7 +50,6 @@
 			<Item Name="Node - PXImc Read.vi" Type="VI" URL="../VIs/Node/Node - PXImc Read.vi"/>
 			<Item Name="Node - Read U8 Array from Byte Buffer.vi" Type="VI" URL="../VIs/Node/Node - Read U8 Array from Byte Buffer.vi"/>
 			<Item Name="Node - Reader.vi" Type="VI" URL="../VIs/Node/Node - Reader.vi"/>
-			<Item Name="Node - Set ID.vi" Type="VI" URL="../VIs/Node/Node - Set ID.vi"/>
 			<Item Name="Node - Update Reader Ch Values.vi" Type="VI" URL="../VIs/Node/Node - Update Reader Ch Values.vi"/>
 			<Item Name="Node - Update Writer Ch Values.vi" Type="VI" URL="../VIs/Node/Node - Update Writer Ch Values.vi"/>
 			<Item Name="Node - Write U8 Array into Byte Buffer.vi" Type="VI" URL="../VIs/Node/Node - Write U8 Array into Byte Buffer.vi"/>

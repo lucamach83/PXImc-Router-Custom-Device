@@ -91,7 +91,7 @@
 			</Item>
 			<Item Name="CHM Generator.lvclass" Type="LVClass" URL="../../vi.lib/NI/Compiled HTML Menu Tool/CHM Generator/CHM Generator.lvclass"/>
 			<Item Name="Compile CHM.vi" Type="VI" URL="../../vi.lib/NI/Compiled HTML Menu Tool/CHM Generator/Compile CHM.vi"/>
-			<Item Name="Load Help File.vi" Type="VI" URL="/../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2016/ProjectTemplates/Source/NI VeriStand/Inline Async Wizard/Template Files/Load Help File.vi"/>
+			<Item Name="Load Help File.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2016/ProjectTemplates/Source/NI VeriStand/Inline Async Wizard/Template Files/Load Help File.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -102,8 +102,6 @@
 			<Item Name="nipximclvapi.dll" Type="Document" URL="nipximclvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Reader Data.ctl" Type="VI" URL="../Engine/PXImc Router/Controls/Reader Data.ctl"/>
-			<Item Name="Writer Data.ctl" Type="VI" URL="../Engine/PXImc Router/Controls/Writer Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Debug" Type="Source Distribution">
@@ -419,8 +417,6 @@
 			<Item Name="nipximclvapi.dll" Type="Document" URL="nipximclvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Reader Data.ctl" Type="VI" URL="../Engine/PXImc Router/Controls/Reader Data.ctl"/>
-			<Item Name="Writer Data.ctl" Type="VI" URL="../Engine/PXImc Router/Controls/Writer Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Debug" Type="Source Distribution">
@@ -667,8 +663,6 @@ DirectoryIndex index.htm
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="PXImc Router.lvlib" Type="Library" URL="../Engine/PXImc Router/PXImc Router.lvlib"/>
-			<Item Name="Reader Data.ctl" Type="VI" URL="../Engine/PXImc Router/Controls/Reader Data.ctl"/>
-			<Item Name="Writer Data.ctl" Type="VI" URL="../Engine/PXImc Router/Controls/Writer Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Debug" Type="Source Distribution">
@@ -883,8 +877,6 @@ DirectoryIndex index.htm
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="PXImc Router.lvlib" Type="Library" URL="../Engine/PXImc Router/PXImc Router.lvlib"/>
-			<Item Name="Reader Data.ctl" Type="VI" URL="../Engine/PXImc Router/Controls/Reader Data.ctl"/>
-			<Item Name="Writer Data.ctl" Type="VI" URL="../Engine/PXImc Router/Controls/Writer Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Debug" Type="Source Distribution">
@@ -1100,8 +1092,6 @@ DirectoryIndex index.htm
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="PXImc Router.lvlib" Type="Library" URL="../Engine/PXImc Router/PXImc Router.lvlib"/>
-			<Item Name="Reader Data.ctl" Type="VI" URL="../Engine/PXImc Router/Controls/Reader Data.ctl"/>
-			<Item Name="Writer Data.ctl" Type="VI" URL="../Engine/PXImc Router/Controls/Writer Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Debug" Type="Source Distribution">
