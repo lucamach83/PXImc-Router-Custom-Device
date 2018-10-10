@@ -91,7 +91,6 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="PXImc Router.lvlib" Type="Library" URL="../PXImc Router/PXImc Router.lvlib"/>
-		<Item Name="Router - Handshaking Test.vi" Type="VI" URL="../PXImc Router/Tests/Router - Handshaking Test.vi"/>
 		<Item Name="Router v1.vi" Type="VI" URL="../Router v1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -219,9 +218,7 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="PXImc Router.lvlib" Type="Library" URL="../PXImc Router/PXImc Router.lvlib"/>
-		<Item Name="Node - Handshaking Test.vi" Type="VI" URL="../PXImc Router/Tests/Node - Handshaking Test.vi"/>
 		<Item Name="Node v1.vi" Type="VI" URL="../Node v1.vi"/>
-		<Item Name="Node.vi" Type="VI" URL="../Node.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
