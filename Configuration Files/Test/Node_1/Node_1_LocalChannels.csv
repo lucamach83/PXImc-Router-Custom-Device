@@ -1,0 +1,6 @@
+Channel_Name;DataType
+Node1_RPM0;U32
+Node1_RPM1;U32
+Node1_Accel0;DBL
+Node1_Accel1;DBL
+Node1_Relay2;BOOL

@@ -1,0 +1,4 @@
+Channel_Name;DataType;RemoteNode
+Node1_RPM0;U32;Node1
+Node1_Accel1;DBL;Node1
+Node1_Relay2;BOOL;Node1

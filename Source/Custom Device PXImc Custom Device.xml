@@ -123,22 +123,44 @@
         <Path>Custom Devices\PXImc Custom Device\Windows\PXImc Custom Device Configuration.llb\ActionVIOnCompile.vi</Path>
       </ActionVIOnCompile>
     </Page>
-    
-<Page>
-      <Name>
+    <Page>
+	
+     <Name>
         <eng>Router</eng>
         <loc>Router</loc>
       </Name>
+	  <DeleteProtection>true</DeleteProtection>
       <GUID>c8b74b34-bc72-40f1-ad7b-12650213177a</GUID>
       <Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\PXImc Custom Device\Windows\Data\PXI_target.png</Path>
+		</Glyph> 
+	  <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\PXImc Custom Device\Windows\PXImc Custom Device Configuration.llb\Router.vi</Path>
+      </Item2Launch>		
+    </Page>
+	
+	<Page>
+	
+      <Name>
+        <eng>Node</eng>
+        <loc>Node</loc>
+      </Name>
+	  <DeleteProtection>true</DeleteProtection>
+      <GUID>521BD6DB-6186-46DF-8A8D-09F4EE9A1782</GUID>
+      <Glyph>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\PXImc Custom Device\Windows\Data\PXI_target.png</Path>
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\PXImc Custom Device\Windows\PXImc Custom Device Configuration.llb\Router.vi</Path>
+		<Path>Custom Devices\PXImc Custom Device\Windows\PXImc Custom Device Configuration.llb\Node.vi</Path>
+		
       </Item2Launch>
+	  
     </Page>
+
   </Pages>
   <CustomXML>
     <Dummy></Dummy>

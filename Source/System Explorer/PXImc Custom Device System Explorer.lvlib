@@ -7,14 +7,42 @@
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="Extra Pages" Type="Folder">
-				<Item Name="Router.vi" Type="VI" URL="../Router.vi"/>
+				<Item Name="Node.vi" Type="VI" URL="../Pages/Node.vi"/>
+				<Item Name="Router.vi" Type="VI" URL="../Pages/Router.vi"/>
 			</Item>
 			<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
 			<Item Name="Export Configuration RTM.vi" Type="VI" URL="../Export Configuration RTM.vi"/>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
-		<Item Name="SubVIs" Type="Folder"/>
+		<Item Name="Glyphs" Type="Folder">
+			<Item Name="ai.png" Type="Document" URL="../Glyphs/ai.png"/>
+			<Item Name="ao.png" Type="Document" URL="../Glyphs/ao.png"/>
+			<Item Name="ApplicationIcon.ico" Type="Document" URL="../Glyphs/ApplicationIcon.ico"/>
+			<Item Name="ChnWave.png" Type="Document" URL="../Glyphs/ChnWave.png"/>
+			<Item Name="digitalMultiMeter.png" Type="Document" URL="../Glyphs/digitalMultiMeter.png"/>
+			<Item Name="Error.png" Type="Document" URL="../Glyphs/Error.png"/>
+			<Item Name="error2.png" Type="Document" URL="../Glyphs/error2.png"/>
+			<Item Name="ErrorMessage.png" Type="Document" URL="../Glyphs/ErrorMessage.png"/>
+			<Item Name="ErrorOverlay.png" Type="Document" URL="../Glyphs/ErrorOverlay.png"/>
+			<Item Name="Gear.png" Type="Document" URL="../Glyphs/Gear.png"/>
+			<Item Name="Gear2.png" Type="Document" URL="../Glyphs/Gear2.png"/>
+			<Item Name="Gear3.png" Type="Document" URL="../Glyphs/Gear3.png"/>
+			<Item Name="NI-SWITCH.png" Type="Document" URL="../Glyphs/NI-SWITCH.png"/>
+			<Item Name="PXI_target.png" Type="Document" URL="../Glyphs/PXI_target.png"/>
+			<Item Name="route.png" Type="Document" URL="../Glyphs/route.png"/>
+			<Item Name="scan.png" Type="Document" URL="../Glyphs/scan.png"/>
+			<Item Name="scan2.png" Type="Document" URL="../Glyphs/scan2.png"/>
+			<Item Name="scan3.png" Type="Document" URL="../Glyphs/scan3.png"/>
+			<Item Name="status2.png" Type="Document" URL="../Glyphs/status2.png"/>
+			<Item Name="Switch.png" Type="Document" URL="../Glyphs/Switch.png"/>
+			<Item Name="task.png" Type="Document" URL="../Glyphs/task.png"/>
+			<Item Name="trigger.png" Type="Document" URL="../Glyphs/trigger.png"/>
+			<Item Name="trigger2.png" Type="Document" URL="../Glyphs/trigger2.png"/>
+		</Item>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Router - Read PXImc Params.vi" Type="VI" URL="../subVIs/Router - Read PXImc Params.vi"/>
+		</Item>
 		<Item Name="Types" Type="Folder"/>
 	</Item>
 </Library>
