@@ -34,7 +34,7 @@
 		<Item Name="PXImc Custom Device Engine.lvlib" Type="Library" URL="../Engine/PXImc Custom Device Engine.lvlib"/>
 		<Item Name="PXImc Custom Device Shared.lvlib" Type="Library" URL="../Shared/PXImc Custom Device Shared.lvlib"/>
 		<Item Name="PXImc Custom Device System Explorer.lvlib" Type="Library" URL="../System Explorer/PXImc Custom Device System Explorer.lvlib"/>
-		<Item Name="PXImc Router.lvlib" Type="Library" URL="../Engine/PXImc Router/PXImc Router.lvlib"/>
+		<Item Name="PXImc Router.lvlib" Type="Library" URL="../PXImc Router/PXImc Router.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -116,6 +116,9 @@
 			<Item Name="nipximclvapi.dll" Type="Document" URL="nipximclvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Node - Create Local Channels.vi" Type="VI" URL="../System Explorer/subVIs/Node - Create Local Channels.vi"/>
+			<Item Name="Reader Data.ctl" Type="VI" URL="../PXImc Router/Controls/Reader Data.ctl"/>
+			<Item Name="Writer Data.ctl" Type="VI" URL="../PXImc Router/Controls/Writer Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Debug" Type="Source Distribution">
@@ -383,7 +386,7 @@
 		</Item>
 		<Item Name="PXImc Custom Device Engine.lvlib" Type="Library" URL="../Engine/PXImc Custom Device Engine.lvlib"/>
 		<Item Name="PXImc Custom Device Shared.lvlib" Type="Library" URL="../Shared/PXImc Custom Device Shared.lvlib"/>
-		<Item Name="PXImc Router.lvlib" Type="Library" URL="../Engine/PXImc Router/PXImc Router.lvlib"/>
+		<Item Name="PXImc Router.lvlib" Type="Library" URL="../PXImc Router/PXImc Router.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -431,6 +434,8 @@
 			<Item Name="nipximclvapi.dll" Type="Document" URL="nipximclvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Reader Data.ctl" Type="VI" URL="../PXImc Router/Controls/Reader Data.ctl"/>
+			<Item Name="Writer Data.ctl" Type="VI" URL="../PXImc Router/Controls/Writer Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Debug" Type="Source Distribution">
@@ -676,7 +681,9 @@ DirectoryIndex index.htm
 			<Item Name="nipximclvapi.dll" Type="Document" URL="nipximclvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PXImc Router.lvlib" Type="Library" URL="../Engine/PXImc Router/PXImc Router.lvlib"/>
+			<Item Name="PXImc Router.lvlib" Type="Library" URL="../PXImc Router/PXImc Router.lvlib"/>
+			<Item Name="Reader Data.ctl" Type="VI" URL="../PXImc Router/Controls/Reader Data.ctl"/>
+			<Item Name="Writer Data.ctl" Type="VI" URL="../PXImc Router/Controls/Writer Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Debug" Type="Source Distribution">
@@ -890,7 +897,9 @@ DirectoryIndex index.htm
 			<Item Name="nipximclvapi.dll" Type="Document" URL="nipximclvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PXImc Router.lvlib" Type="Library" URL="../Engine/PXImc Router/PXImc Router.lvlib"/>
+			<Item Name="PXImc Router.lvlib" Type="Library" URL="../PXImc Router/PXImc Router.lvlib"/>
+			<Item Name="Reader Data.ctl" Type="VI" URL="../PXImc Router/Controls/Reader Data.ctl"/>
+			<Item Name="Writer Data.ctl" Type="VI" URL="../PXImc Router/Controls/Writer Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Debug" Type="Source Distribution">
@@ -1105,7 +1114,9 @@ DirectoryIndex index.htm
 			<Item Name="nipximclvapi.dll" Type="Document" URL="nipximclvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PXImc Router.lvlib" Type="Library" URL="../Engine/PXImc Router/PXImc Router.lvlib"/>
+			<Item Name="PXImc Router.lvlib" Type="Library" URL="../PXImc Router/PXImc Router.lvlib"/>
+			<Item Name="Reader Data.ctl" Type="VI" URL="../PXImc Router/Controls/Reader Data.ctl"/>
+			<Item Name="Writer Data.ctl" Type="VI" URL="../PXImc Router/Controls/Writer Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Debug" Type="Source Distribution">

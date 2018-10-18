@@ -35,6 +35,7 @@
 		<Item Name="Router Data.ctl" Type="VI" URL="../Controls/Router Data.ctl"/>
 		<Item Name="Table Index-Size.ctl" Type="VI" URL="../Controls/Table Index-Size.ctl"/>
 		<Item Name="Data Type.ctl" Type="VI" URL="../Controls/Data Type.ctl"/>
+		<Item Name="Target Type.ctl" Type="VI" URL="../Controls/Target Type.ctl"/>
 	</Item>
 	<Item Name="VIs" Type="Folder">
 		<Item Name="Node VIs" Type="Folder">

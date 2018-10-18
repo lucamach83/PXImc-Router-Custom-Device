@@ -41,6 +41,9 @@
 			<Item Name="trigger2.png" Type="Document" URL="../Glyphs/trigger2.png"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Node - Read Imported Channels.vi" Type="VI" URL="../subVIs/Node - Read Imported Channels.vi"/>
+			<Item Name="Node - Read Local Table.vi" Type="VI" URL="../subVIs/Node - Read Local Table.vi"/>
+			<Item Name="Node - Read PXImc Params.vi" Type="VI" URL="../subVIs/Node - Read PXImc Params.vi"/>
 			<Item Name="Router - Read PXImc Params.vi" Type="VI" URL="../subVIs/Router - Read PXImc Params.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder"/>
