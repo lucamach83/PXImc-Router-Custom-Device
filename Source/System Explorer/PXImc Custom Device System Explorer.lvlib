@@ -41,11 +41,18 @@
 			<Item Name="trigger2.png" Type="Document" URL="../Glyphs/trigger2.png"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
-			<Item Name="Node - Read Imported Channels.vi" Type="VI" URL="../subVIs/Node - Read Imported Channels.vi"/>
-			<Item Name="Node - Read Local Table.vi" Type="VI" URL="../subVIs/Node - Read Local Table.vi"/>
+			<Item Name="Init - Node Config Pop Up.vi" Type="VI" URL="../subVIs/Init - Node Config Pop Up.vi"/>
+			<Item Name="Master Table Config File - Add Node.vi" Type="VI" URL="../subVIs/Master Table Config File - Add Node.vi"/>
+			<Item Name="Node - Calculate Local Channels Table Size.vi" Type="VI" URL="../subVIs/Node - Calculate Local Channels Table Size.vi"/>
+			<Item Name="Node - Create Imported Channels.vi" Type="VI" URL="../subVIs/Node - Create Imported Channels.vi"/>
+			<Item Name="Node - Create Local Channels.vi" Type="VI" URL="../subVIs/Node - Create Local Channels.vi"/>
+			<Item Name="Node - Read Imported Channels Table.vi" Type="VI" URL="../subVIs/Node - Read Imported Channels Table.vi"/>
+			<Item Name="Node - Read Local Channels Table.vi" Type="VI" URL="../subVIs/Node - Read Local Channels Table.vi"/>
 			<Item Name="Node - Read PXImc Params.vi" Type="VI" URL="../subVIs/Node - Read PXImc Params.vi"/>
+			<Item Name="Node - Remove Channels.vi" Type="VI" URL="../subVIs/Node - Remove Channels.vi"/>
 			<Item Name="Router - Read PXImc Params.vi" Type="VI" URL="../subVIs/Router - Read PXImc Params.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder"/>
 	</Item>
+	<Item Name="Master Table Config File - Update Node.vi" Type="VI" URL="../subVIs/Master Table Config File - Update Node.vi"/>
 </Library>
