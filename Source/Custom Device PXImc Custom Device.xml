@@ -7,7 +7,7 @@
   </AddMenu>
   <Version>1.0.0</Version>
   <Type>Inline HW Interface</Type>
-  <MaxOccurrence>1</MaxOccurrence>
+  <MaxOccurrence>-1</MaxOccurrence>
   <MainPageGUID>cd4175d1-e95a-4eb2-b672-894f1ab5bdc4</MainPageGUID>
   <InitializationVI>
     <Type>Action</Type>
@@ -118,10 +118,14 @@
 				</Documentation>
 			</Button>
 	  </ButtonList>
+	  <ActionVIOnDeleteRequest>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\PXImc Custom Device\Windows\PXImc Custom Device Configuration.llb\ActionVIOnDeleteRequest.vi</Path>
+      </ActionVIOnDeleteRequest>
 	  <ActionVIOnCompile>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\PXImc Custom Device\Windows\PXImc Custom Device Configuration.llb\ActionVIOnCompile.vi</Path>
-      </ActionVIOnCompile>
+      </ActionVIOnCompile>	  
     </Page>
     <Page>
 	

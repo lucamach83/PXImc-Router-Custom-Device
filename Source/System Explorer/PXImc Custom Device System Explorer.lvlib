@@ -11,6 +11,8 @@
 				<Item Name="Router.vi" Type="VI" URL="../Pages/Router.vi"/>
 			</Item>
 			<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
+			<Item Name="ActionVIOnDelete.vi" Type="VI" URL="../ActionVIOnDelete.vi"/>
+			<Item Name="ActionVIOnDeleteRequest.vi" Type="VI" URL="../ActionVIOnDeleteRequest.vi"/>
 			<Item Name="Export Configuration RTM.vi" Type="VI" URL="../Export Configuration RTM.vi"/>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
@@ -43,6 +45,7 @@
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Init - Node Config Pop Up.vi" Type="VI" URL="../subVIs/Init - Node Config Pop Up.vi"/>
 			<Item Name="Master Table Config File - Add Node.vi" Type="VI" URL="../subVIs/Master Table Config File - Add Node.vi"/>
+			<Item Name="Master Table Config File - Update Node.vi" Type="VI" URL="../subVIs/Master Table Config File - Update Node.vi"/>
 			<Item Name="Node - Calculate Local Channels Table Size.vi" Type="VI" URL="../subVIs/Node - Calculate Local Channels Table Size.vi"/>
 			<Item Name="Node - Create Imported Channels.vi" Type="VI" URL="../subVIs/Node - Create Imported Channels.vi"/>
 			<Item Name="Node - Create Local Channels.vi" Type="VI" URL="../subVIs/Node - Create Local Channels.vi"/>
@@ -54,5 +57,4 @@
 		</Item>
 		<Item Name="Types" Type="Folder"/>
 	</Item>
-	<Item Name="Master Table Config File - Update Node.vi" Type="VI" URL="../subVIs/Master Table Config File - Update Node.vi"/>
 </Library>
