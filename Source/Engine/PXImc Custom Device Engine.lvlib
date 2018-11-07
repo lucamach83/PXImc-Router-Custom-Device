@@ -11,6 +11,9 @@
 		</Item>
 		<Item Name="Shut Down" Type="Folder"/>
 	</Item>
+	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Log Message FGV.vi" Type="VI" URL="../../PXImc Router/VIs/Log Message FGV.vi"/>
+	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="RTStateVariables.ctl" Type="VI" URL="../RTStateVariables.ctl"/>
 	</Item>

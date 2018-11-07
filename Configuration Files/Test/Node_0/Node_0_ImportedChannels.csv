@@ -1,0 +1,9 @@
+Channel_Name;DataType;RemoteNode
+Node0_Temp0;DBL;Node0
+Node0_Temp1;DBL;Node0
+Node0_Temp2;DBL;Node0
+Node0_Temp3;DBL;Node0
+Node0_Pressure0;DBL;Node0
+Node0_Pressure1;DBL;Node0
+Node0_Relay0;DBL;Node0
+Node0_Relay1;DBL;Node0

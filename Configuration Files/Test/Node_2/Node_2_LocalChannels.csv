@@ -1,0 +1,10 @@
+Channel_Name;DataType
+Node2_Position0;DBL
+Node2_Position1;DBL
+Node2_Position2;DBL
+Node2_Angle0;DBL
+Node2_Angle1;DBL
+Node2_Angle2;DBL
+Node2_Angle3;DBL
+Node2_Relay20;BOOL
+Node2_Relay21;BOOL
