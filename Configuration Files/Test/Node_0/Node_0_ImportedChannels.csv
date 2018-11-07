@@ -1,9 +1,9 @@
 Channel_Name;DataType;RemoteNode
-Node1_RPM0;U32;Node1
-Node1_Accel1;DBL;Node1
-Node1_Relay11;BOOL;Node1
-Node1_Relay12;BOOL;Node1
-Node2_Position1;DBL;Node2
-Node2_Angle0;DBL;Node2
-Node2_Angle1;DBL;Node2
-Node2_Relay20;BOOL;Node2
+Node0_Temp0;DBL;Node0
+Node0_Temp1;DBL;Node0
+Node0_Temp2;DBL;Node0
+Node0_Temp3;DBL;Node0
+Node0_Pressure0;DBL;Node0
+Node0_Pressure1;DBL;Node0
+Node0_Relay0;DBL;Node0
+Node0_Relay1;DBL;Node0
